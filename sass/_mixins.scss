@@ -1,0 +1,12 @@
+@mixin listReset () {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+@mixin flexAlign () {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}

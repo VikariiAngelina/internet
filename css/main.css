@@ -178,18 +178,30 @@
     	padding: 0 35px;
     }
 
-     .searchIcon {
-    	display: block;
-    	width: 50px;
-    	height: 50px;
-    	margin-right: 16px;
-    	background: url("../images/search.png");
+    .header__form {
+    	position: absolute;
+    	right: 0;
     }
 
+    .header__form input[type="search"] {
+    	border: none;
+    }
+    .header__form button {
+    	background: #fff url(../images/search.png);
+    	border: none;
+    	width: 23px;
+    	height: 20px;
+    	font-size: 0;
+    	position: absolute;
+    	bottom: 3px;
+    	right: 0;
+    }
+    .search {
+    	display: block;
+    	float: right;
+    }
+  
 
-
-
-/* футер
 .footer__left {
 	float: left;
 	width: 70%;
@@ -214,11 +226,21 @@
     margin-bottom: 15px;
     text-decoration: none;
 }
-*/
+
 @media screen and (min-width: 992px) {
     
 }
 
 @media screen and (min-width: 1200px) {
+	.header__form {
+		display: block;
+		position: relative;
+	}
+	.header__form input[type="search"] {
+	    border: block;
+    	padding-right: 25px;
+    	border-bottom: 1px solid #fff;
+    	background-color: transparent;
+	}
     
 }
