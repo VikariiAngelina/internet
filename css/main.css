@@ -1,3 +1,63 @@
+.header__bottom {
+	position: relative;
+	padding: 20px 0;
+	background-color: #2d1c45;
+}
+
+.logo {
+	position: absolute;
+	margin: auto;
+	width: 280px;
+	height: 40px;
+	background: url("../images/logo.png");
+	}
+
+.toggleMobMenu {
+	float: right;
+	width: 40px;
+	margin-top: 3px;
+}
+
+.toggleMobMenu span {
+	display: block;
+	height: 5px;
+	margin-bottom: 7px;
+	background-color: #fff;
+}
+
+.toggleMobMenu span:last-child {
+	margin-bottom: 0;
+}
+
+.header__mobMenuInner.open {
+	display: block;
+}
+
+.header__mobMenuInner {
+	display: none;
+	position: absolute;
+	padding-top: 28px;
+	padding-bottom: 30px;
+	border-top: 1px solid rgba(255,255,255,.8);
+	top: 100%;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.8);
+	z-index: 2;
+}
+
+.search {
+	display: none;
+}
+
+.mainMenu, .topMenu {
+	display: none;
+}
+
+.topMenu {
+	padding: 13px;
+}
+
 .breadcrumb {
 	padding: 10px 0;
 	margin-bottom: 0;
@@ -8,26 +68,157 @@
 	content: ">";
 }
 
-.main__bottom h2 {
+.main__bottom h2{
 	text-align: center;
 }
 
+
 .footer {
 	background-color: #2d1c45;
-	padding: 35px;
-}
+	padding: 35px 0;
+	}
+
+	.footer__left {
+	float: left;
+	width: 100%;
+	}
+
+.footer__cp {
+	float: right;
+	width: 100%;
+	}
+
+.spisok {
+	display: inline-block;
+	font-size: 16px;
+	float: left;
+	width: 50%;
+	padding-right: 10px;
+	margin-bottom: 45px;
+	}
 
 .spisok__link {
 	color: #fff;
 	font-size: 16px;
-	}
+}
+
+
+.spisok__link_color {
+	color: #4b2c6c;
+}
 
 .footer__cp {
-	font-size: 12px;
 	color: #fff;
-	}
+	font-size: 12px;
+}
 
 .footer__cp a{
 	color: #fff;
 }
 
+@media screen and (min-width: 480px) {
+    
+}
+
+@media screen and (min-width: 576px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+.toggleMobMenu {
+	display: none;
+}
+
+.logo {
+	position: static;
+	float: left;
+
+}
+
+	.basket {
+	float: right;
+	color: #fff;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+.basket:after{
+	display: inline-block;
+	content: ' ';
+	width: 27px;
+    height: 21px;
+    margin-left: 2px;
+	background: url("../images/basket.png");
+}
+
+.mainMenu, .topMenu {
+		position: static;
+    	float: left;
+    	display: block;
+    	padding: 0;
+    	border-top: none;
+    }
+
+    .mainMenu {
+    	padding-top: 8px;
+    }		
+
+    .mainMenu__item, .topMenu__item {
+    	display: inline-block;
+    }
+
+    .mainMenu__item a {
+    	font-size: 20px;
+    	padding: 0 25px;
+    	color: #fff;
+    }
+
+      .topMenu__item a {
+    	font-size: 16px;
+    	padding: 0 35px;
+    }
+
+     .searchIcon {
+    	display: block;
+    	width: 50px;
+    	height: 50px;
+    	margin-right: 16px;
+    	background: url("../images/search.png");
+    }
+
+
+
+
+/* футер
+.footer__left {
+	float: left;
+	width: 70%;
+	}
+
+.footer__cp {
+	float: right;
+	width: 30%;
+	text-align: right;
+	}
+
+.spisok {
+	display: inline-block;
+	font-size: 16px;
+	float: left;
+	width: 33.3%;
+	padding-right: 10px;
+	}
+
+.spisok__link {
+	font-size: 16px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+*/
+@media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}

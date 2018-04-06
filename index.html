@@ -22,19 +22,44 @@
 			<div class="container">
 				<div class="header__bottomInner">
 					<div class="header__bottomLeft">
-						<a href="#" class="logo"></a>
-						
+						<a href="/" class="logo"></a>
+						<div class="toggleMobMenu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
 		<div class="header__mobMenu">
 			<div class="container">
 				<div class="header__mobMenuInner">
-					<div class="basket"></div>
-					<div class="mainMenu"></div>
-					<div class="topMenu"></div>
-					<div class="search"></div>
+					<div class="basket">
+					</div>
+					<div class="mainMenu">
+						<ul class="mainMenu__inner listReset">
+							<li class="mainMenu__item"><a href="">Мужская</a></li>
+							<li class="mainMenu__item"><a href="">Женская</a></li>
+							<li class="mainMenu__item"><a href="">Детская</a></li>
+						</ul>
+					</div>
+					<div class="topMenu">
+						<ul class="topMenu__inner listReset">
+							<li class="topMenu__item"><a href="">Оплата и доставка</a></li>
+							<li class="topMenu__item"><a href="">Гарантия</a></li>
+							<li class="topMenu__item"><a href="">О нас</a></li>
+							<li class="topMenu__item"><a href="">Доставка</a></li>
+						</ul>
+					</div>
+					<div class="search">
+						<form action="/" method="post" class="header__form">
+							<input type="search" name="s">
+							<button>Отправить</button>
+							<span class="searchIcon"></span>
+						</form>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -58,29 +83,27 @@
 	</div>
 	<footer class="footer">
 		<div class="container">
-			<div class="footer__leftInner">
-				
-					<ul class="col-xs-3 col-sm-3 col-md-3 col-lg-3 spisok listReset">
-						<li class="spisok__item"><a class="spisok__link" href="#">Оплата и доставка</a></li>
-						<li class="spisok__item"><a class="spisok__link" href="#">Гарантия</a></li>
-						<li class="spisok__item"><a class="spisok__link" href="#">О нас</a></li>
-						<li class="spisok__item"><a class="spisok__link" href="#">Контакты</a></li>
-					</ul>
-					<ul class="col-xs-3 col-sm-3 col-md-3 col-lg-3 spisok listReset">
-						<li class="spisok__item"><a class="spisok__link spisok__link_color" href="#">Каталоог</a></li>
-						<li class="spisok__item"><a class="spisok__link" href="#">Мужская</a></li>
-						<li class="spisok__item"><a class="spisok__link" href="#">Женская</a></li>
-						<li class="spisok__item"><a class="spisok__link" href="#">Детская</a></li>
-					</ul>
-					<ul class="col-xs-3 col-sm-3 col-md-3 col-lg-3 spisok listReset">
-						<li class="spisok__item"><a class="spisok__link spisok__link_color" href="#">Контакты</a></li>
-						<li class="spisok__item"><a class="spisok__link" href="tel:dego1me@gmail.com">(+38)093 894-35-60</a></li>
-						<li class="spisok__item"><a class="spisok__link" href="tel:dego1me@gmail.com">(+38)063 854-35-11</a></li>
-					</ul>
-				
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 footer__cp">
-					Сайт от <a href="#">студии Koda</a>, 2017 год
-				</div>
+			<div class="footer__left">
+				<ul class="spisok listReset">
+					<li class="spisok__item"><a class="spisok__link" href="#">Оплата и доставка</a></li>
+					<li class="spisok__item"><a class="spisok__link" href="#">Гарантия</a></li>
+					<li class="spisok__item"><a class="spisok__link" href="#">О нас</a></li>
+					<li class="spisok__item"><a class="spisok__link" href="#">Контакты</a></li>
+				</ul>
+				<ul class="spisok listReset">
+					<li class="spisok__item"><a class="spisok__link spisok__link_color" href="#">Каталоог</a></li>
+					<li class="spisok__item"><a class="spisok__link" href="#">Мужская</a></li>
+					<li class="spisok__item"><a class="spisok__link" href="#">Женская</a></li>
+					<li class="spisok__item"><a class="spisok__link" href="#">Детская</a></li>
+				</ul>
+				<ul class="spisok listReset">
+					<li class="spisok__item"><a class="spisok__link spisok__link_color" href="#">Контакты</a></li>
+					<li class="spisok__item"><a class="spisok__link" href="tel:dego1me@gmail.com">(+38)093 894-35-60</a></li>
+					<li class="spisok__item"><a class="spisok__link" href="tel:dego1me@gmail.com">(+38)063 854-35-11</a></li>
+				</ul>
+			</div>
+			<div class="footer__cp">
+				Сайт от <a href="#">студии Koda</a>, 2017 год
 			</div>
 		</div>
 	</footer>
